@@ -1,12 +1,10 @@
 import cv2 as cv
 
 def draw_ball_location(img_color, locations):
-    for i in range(len(locations)-1):
-
-        if locations[0] is None or locations[1] is None:
-            continue
-
-        cv.line(img_color, tuple(locations[i]), tuple(locations[i+1]), (0, 255, 255), 3)
+    for i in range(len(locations) - 1):
+        # Check if both coordinates are available
+        if locations[i] is not None and locations[i + 1] is not None:
+            cv.line(img_color, tuple(locations[i]), tuple(locations[i + 1]), (0, 255, 255), 3)
 
     return img_color
 
