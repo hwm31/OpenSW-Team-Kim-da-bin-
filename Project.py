@@ -2,8 +2,7 @@ import cv2 as cv
 
 def draw_ball_location(img_color, locations):
     for i in range(len(locations)-1):
-
-        if locations[0] is None or locations[1] is None:
+        if locations[i] is None or locations[i+1] is None:
             continue
 
         cv.line(img_color, tuple(locations[i]), tuple(locations[i+1]), (0, 255, 255), 3)
@@ -14,7 +13,7 @@ cap = cv.VideoCapture(0)
 
 list_ball_location = []
 history_ball_locations = []
-isDraw = True
+isDraw = False # Initial state set to False
 
 face_cascade = cv.CascadeClassifier(cv.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
