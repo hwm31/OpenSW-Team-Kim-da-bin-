@@ -2,8 +2,7 @@ import cv2 as cv
 
 def draw_ball_location(img_color, locations):
     for i in range(len(locations)-1):
-
-        if locations[0] is None or locations[1] is None:
+        if len(locations)<2:
             continue
 
         cv.line(img_color, tuple(locations[i]), tuple(locations[i+1]), (0, 255, 255), 3)
