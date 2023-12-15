@@ -9,7 +9,13 @@ Team name : Kim Da Bin (김다빈)
 | 리시웬  | 202334461  |
 | 박세렴  | 202334469  |
 
+
+
+
+
 This is a simple project that uses the OpenCV library to capture video from a camera, detects faces using a Haar cascade classifier, and displays the locations where a "ball" is drawn.
+
+
 
 
 ## Getting Started
@@ -26,9 +32,13 @@ To, set up and run this prohect on your local machine for development and testin
 - Adjustments and Modifications
 
 
+
+
 ### Prerequisites
 
 To run the provided Python script using OpenCV, you'll need to install Python and the OpenCV library on your machine.
+
+
 
 
 ### Installing
@@ -43,7 +53,8 @@ ex) git clone [https://github.com/hwm31/OpenSW-Team-Kim-da-bin-]
 
 
 
-### Code
+
+## Code
 
 Here are the main components and functionalities of the code
 
@@ -64,6 +75,7 @@ Here are the main components and functionalities of the code
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Thank You
 
 
 
