@@ -63,13 +63,7 @@ Here are the main components and functionalities of the code
 
 
 
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
